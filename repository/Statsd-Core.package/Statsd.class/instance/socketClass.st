@@ -1,0 +1,3 @@
+socket
+socketClass
+	^ Socket
