@@ -1,11 +1,10 @@
 baselines
 baseline: spec
 
-	<version: '1.0-baseline'>
+	<baseline>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://ss3.gemstalksystems.com/ss/Statsd'.
 		spec package: 'Statsd-Core'.
 		spec group: 'Core' with: #('Statsd-Core' ). ].
 	spec for: #gemstone do:[
